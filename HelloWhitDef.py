@@ -1,5 +1,5 @@
 def hello(to):
-    print("hello")
+    print("hello,", to)
 
 name = input ("what is your name? ")
 hello(name)
