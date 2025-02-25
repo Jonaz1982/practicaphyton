@@ -1,5 +1,5 @@
-# Di tu nombre 
-name = input ("What 's your name? ")
-# Saluda 
-print ("Hello")
-print (name)
+# Ask user for their name
+name = input ("What 's your name ? ").strip().title()
+
+# Say hello to user
+print (f"Hello,  {name}" )
